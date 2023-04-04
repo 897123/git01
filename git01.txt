@@ -1,4 +1,12 @@
 git	仓库初始化与文件添加基本操作	git status查看文件是否存到缓存区
-git	开启时光穿梭机			git add将文件存到缓存区
+git	开启时光穿梭机			    git add将文件存到缓存区
 git	第三次修改				git commit将文件提交到本地仓库
 git	第四次修改				git res
+git 第五次修改                git diff		            比较版本库
+						    gitk				        git自带插件，图形化版本查看库
+						    git reset			        版本回退
+ 						    git reflog			        全版本查看
+						    git ls-files		        查看目录下所有文件
+						    git checkout --文件名
+						    git clone -路径		        下载源码
+						    ssh-keygen -t rsa -C	    SSH本地仓库推送
